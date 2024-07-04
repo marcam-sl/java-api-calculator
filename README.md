@@ -3,6 +3,7 @@
 This is a simple calculator application built with Java and Spring Boot. The application supports four basic operations: addition, subtraction, multiplication, and division via HTTP requests.
 
 ## Project Structure
+```
 simple-calculator/
 │
 ├── src/
@@ -24,7 +25,7 @@ simple-calculator/
 ├── pom.xml
 ├── build.gradle
 └── README.md
-
+```
 
 ## Build and Run with Maven
 
