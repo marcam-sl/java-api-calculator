@@ -1,0 +1,4 @@
+FROM openjdk:11-jre-slim
+VOLUME /tmp
+COPY target/simple-calculator-1.0-SNAPSHOT.jar simple-calculator.jar
+ENTRYPOINT ["java","-jar","/simple-calculator.jar"]
